@@ -105,7 +105,7 @@
 @if(($errors->any()) || (Request::method() ==='GET' && Request::segment(2)>0))
 <script type="text/javascript">$(document).ready(function(){ $('#myModal6').modal('show'); });</script>
 @endif
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&key=AIzaSyCCxCE1arJKwyfRkwdXAELK9Q2cJ9i6XRc"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&key=GOOGLE_API_KEY"></script>
 
 <script type="text/javascript">
     // When the window has finished loading create our google map below
